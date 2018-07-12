@@ -1,0 +1,5 @@
+eslint:
+    enabled: true
+    config:
+      config: .codeclimate.eslintrc.json,
+      channel: "eslint-4"

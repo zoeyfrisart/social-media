@@ -33,7 +33,6 @@
   "devDependencies": {
     "eslint": "^5.1.0",
     "eslint-config-airbnb": "^17.0.0",
-    "eslint-config-react-app": "^2.1.0",
     "eslint-config-synacor": "^2.0.2",
     "eslint-plugin-flowtype": "^2.50.0",
     "eslint-plugin-html": "^4.0.5",

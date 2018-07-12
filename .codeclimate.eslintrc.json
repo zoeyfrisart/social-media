@@ -89,25 +89,7 @@
         "returns": "returns"
       }
     }],
-    "require-jsdoc": 0,
-    "require-jsdoc-except/require-jsdoc": [1, {
-      "require": {
-        "FunctionDeclaration": true,
-        "MethodDefinition": true,
-        "ClassDeclaration": true
-      },
-      "ignore": [
-        "constructor",
-        "render",
-        "componentWillMount",
-        "componentWillReceiveProps",
-        "componentWillUpdate",
-        "componentDidMount",
-        "componentDidReceiveProps",
-        "componentDidUpdate",
-        "componentWillUnmount"
-      ]
-    }],
+    "require-jsdoc": 1,
     "complexity": [1, {"max": 10}],
     "react/display-name": 0,
     "react/react-in-jsx-scope": 0,
@@ -183,7 +165,6 @@
     "react",
     "jsx-a11y",
     "import",
-    "security",
-    "require-jsdoc-except"
+    "security"
   ]
 }
