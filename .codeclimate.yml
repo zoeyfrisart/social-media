@@ -42,5 +42,3 @@ plugins:
     enabled: true
   nodesecurity:
     enabled: true
-  markdownlint:
-    enabled: true
