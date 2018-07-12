@@ -1,0 +1,190 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "react-app",
+    "eslint-config-synacor",
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:security/recommended",
+    "airbnb"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "impliedStrict": true,
+      "classes": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "settings": {
+    "react": {
+      "version": "15.6.2"
+    }
+  },
+  "rules": {
+    "no-unused-vars": [
+      1,
+      {
+        "argsIgnorePattern": "res|next|^err"
+      }
+    ],
+    "arrow-body-style": [
+      2,
+      "as-needed"
+    ],
+    "no-param-reassign": [
+      2,
+      {
+        "props": false
+      }
+    ],
+    "no-console": 1,
+    "import/prefer-default-export": 1,
+    "import": 0,
+    "func-names": 0,
+    "function-paren-newline": 0,
+    "space-before-function-paren": 0,
+    "no-confusing-arrow": 1,
+    "no-prototype-builtins": 0,
+    "comma-dangle": 2,
+    "camelcase": 2,
+    "prefer-destructuring": 2,
+    "max-len": [
+      1,
+      {
+        "code": 90,
+        "tabWidth": 2,
+        "ignoreComments": true,
+        "ignoreStrings": true,
+        "ignoreUrls": true,
+        "ignoreTemplateLiterals": true
+      }
+    ],
+    "import/extensions": [1,
+      "always",
+      {
+        "js": "never"
+      }
+    ],
+    "no-underscore-dangle": 1,
+    "no-mixed-spaces-and-tabs": 2,
+    "indent": [
+      2,
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "spaced-comment": [1, "always"],
+    "consistent-return": 0,
+    "valid-jsdoc": [1, {
+      "requireParamDescription": true,
+      "requireReturnDescription": true,
+      "requireReturn": false,
+      "prefer": {
+        "returns": "returns"
+      }
+    }],
+    "require-jsdoc": 0,
+    "require-jsdoc-except/require-jsdoc": [1, {
+      "require": {
+        "FunctionDeclaration": true,
+        "MethodDefinition": true,
+        "ClassDeclaration": true
+      },
+      "ignore": [
+        "constructor",
+        "render",
+        "componentWillMount",
+        "componentWillReceiveProps",
+        "componentWillUpdate",
+        "componentDidMount",
+        "componentDidReceiveProps",
+        "componentDidUpdate",
+        "componentWillUnmount"
+      ]
+    }],
+    "complexity": [1, {"max": 10}],
+    "react/display-name": 0,
+    "react/react-in-jsx-scope": 0,
+    "react/no-danger": 1,
+    "react/forbid-prop-types": 0,
+    "react/no-unescaped-entities": 1,
+    "react/no-direct-mutation-state": 2,
+    "react/prop-types": 1,
+    "react/require-default-props": 1,
+    "react/no-unused-state": 1,
+    "react/prefer-stateless-function": 1,
+    "react/no-array-index-key": 0,
+    "react/no-did-update-set-state": 0,
+    "react/no-did-mount-set-state": 0,
+    "react/no-will-update-set-state": 0,
+    "react/no-deprecated": 1,
+    "jsx-a11y/accessible-emoji": 1,
+    "jsx-a11y/click-events-have-key-events": 1,
+    "jsx-a11y/no-static-element-interactions": 1,
+    "jsx-a11y/no-noninteractive-element-interactions": 1,
+    "jsx-a11y/label-has-for": [ 2, {
+      "components": [ "label" ],
+      "required": {
+          "every": [ "nesting", "id" ]
+      },
+      "allowChildren": true
+    }],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "radix": [2, "always"],
+    "no-shadow": [
+      1,
+      {
+        "hoist": "all",
+        "allow": [
+          "resolve",
+          "reject",
+          "done",
+          "next",
+          "err",
+          "error"
+        ]
+      }
+    ],
+    "quotes": [
+      2,
+      "single",
+      {
+        "avoidEscape": true,
+        "allowTemplateLiterals": true
+      }
+    ],
+    "jsx-a11y/href-no-hash": "off",
+    "jsx-a11y/anchor-is-valid": [
+      "warn",
+      {
+        "aspects": [
+          "invalidHref"
+        ]
+      }
+    ],
+    "security/detect-object-injection": 0
+  },
+  "plugins": [
+    "html",
+    "react",
+    "jsx-a11y",
+    "import",
+    "security",
+    "require-jsdoc-except"
+  ]
+}
