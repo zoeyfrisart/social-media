@@ -13,7 +13,7 @@
     "graphql"
   ],
   "author": "Yannick Frisart & Thijs van Rijn",
-  "license": "AGPL-3.0",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/yannick1691/social-media/issues"
   },

@@ -1,9 +1,9 @@
 # social-media
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
 [![Maintainability](https://api.codeclimate.com/v1/badges/0940763fd54d720ecc83/maintainability)](https://codeclimate.com/github/yannick1691/social-media/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/0940763fd54d720ecc83/test_coverage)](https://codeclimate.com/github/yannick1691/social-media/test_coverage)
 [![Known Vulnerabilities](https://snyk.io/test/github/yannick1691/social-media/badge.svg?targetFile=package.json)](https://snyk.io/test/github/yannick1691/social-media?targetFile=package.json)
 [![Build Status](https://travis-ci.com/yannick1691/social-media.svg?branch=master)](https://travis-ci.com/yannick1691/social-media)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
 
 A open source platform made by Yannick and Thijs.  
 This project is made for educational purposes and to test our skill.
@@ -44,6 +44,24 @@ npm run serve -- --server config
 ```
 
 For more info on the cli checkout [CLI Commands](#cli-commands)
+
+## License information
+This project is licensed under the GPL-3.0 license.
+
+Copyright (C) 2018 Yannick Frisart
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 ## CLI Commands
 ``` bash
