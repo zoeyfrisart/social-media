@@ -26,6 +26,7 @@
     "dev": "preact watch",
     "lint": "eslint src",
     "test": "jest ./tests",
+    "test-coverage": "jest ./tests --coverage",
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect"
   },
