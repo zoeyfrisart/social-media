@@ -28,12 +28,15 @@
     "test": "jest ./tests",
     "test-coverage": "jest ./tests --coverage",
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare": "npm run snyk-protect",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
   },
   "eslintIgnore": [
     "build/*"
   ],
   "devDependencies": {
+    "all-contributors-cli": "^5.2.1",
     "eslint": "^5.1.0",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-config-synacor": "^2.0.2",
