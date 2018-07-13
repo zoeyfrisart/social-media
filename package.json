@@ -30,7 +30,8 @@
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect",
     "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate"
+    "contributors:generate": "all-contributors generate",
+    "contributors:check": "all-contributors check"
   },
   "eslintIgnore": [
     "build/*"
