@@ -24,6 +24,22 @@
         "infra",
         "ideas"
       ]
+    },
+    {
+      "login": "ThijsvanRijn",
+      "name": "Thijs van Rijn",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/25220164?v=4",
+      "profile": "https://thijsvanrijn.nl",
+      "contributions": [
+        "doc",
+        "code",
+        "design",
+        "bug",
+        "blog",
+        "test",
+        "infra",
+        "ideas"
+      ]
     }
   ]
 }

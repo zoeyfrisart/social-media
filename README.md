@@ -1,5 +1,5 @@
 # social-media
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 [![Maintainability](https://api.codeclimate.com/v1/badges/0940763fd54d720ecc83/maintainability)](https://codeclimate.com/github/yannick1691/social-media/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/0940763fd54d720ecc83/test_coverage)](https://codeclimate.com/github/yannick1691/social-media/test_coverage)
 [![Known Vulnerabilities](https://snyk.io/test/github/yannick1691/social-media/badge.svg?targetFile=package.json)](https://snyk.io/test/github/yannick1691/social-media?targetFile=package.json)
@@ -70,8 +70,8 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars2.githubusercontent.com/u/19853448?v=4" width="100px;"/><br /><sub><b>Yannick</b></sub>](http://yannick-frisart.nl)<br />[📖](https://github.com/Yannick1691/social-media/commits?author=yannick1691 "Documentation") [💻](https://github.com/Yannick1691/social-media/commits?author=yannick1691 "Code") [🎨](#design-yannick1691 "Design") [🐛](https://github.com/Yannick1691/social-media/issues?q=author%3Ayannick1691 "Bug reports") [📝](#blog-yannick1691 "Blogposts") [⚠️](https://github.com/Yannick1691/social-media/commits?author=yannick1691 "Tests") [🚇](#infra-yannick1691 "Infrastructure (Hosting, Build-Tools, etc)") [🤔](#ideas-yannick1691 "Ideas, Planning, & Feedback") |
-| :---: |
+| [<img src="https://avatars2.githubusercontent.com/u/19853448?v=4" width="100px;"/><br /><sub><b>Yannick</b></sub>](http://yannick-frisart.nl)<br />[📖](https://github.com/Yannick1691/social-media/commits?author=yannick1691 "Documentation") [💻](https://github.com/Yannick1691/social-media/commits?author=yannick1691 "Code") [🎨](#design-yannick1691 "Design") [🐛](https://github.com/Yannick1691/social-media/issues?q=author%3Ayannick1691 "Bug reports") [📝](#blog-yannick1691 "Blogposts") [⚠️](https://github.com/Yannick1691/social-media/commits?author=yannick1691 "Tests") [🚇](#infra-yannick1691 "Infrastructure (Hosting, Build-Tools, etc)") [🤔](#ideas-yannick1691 "Ideas, Planning, & Feedback") | [<img src="https://avatars3.githubusercontent.com/u/25220164?v=4" width="100px;"/><br /><sub><b>Thijs van Rijn</b></sub>](https://thijsvanrijn.nl)<br />[📖](https://github.com/Yannick1691/social-media/commits?author=ThijsvanRijn "Documentation") [💻](https://github.com/Yannick1691/social-media/commits?author=ThijsvanRijn "Code") [🎨](#design-ThijsvanRijn "Design") [🐛](https://github.com/Yannick1691/social-media/issues?q=author%3AThijsvanRijn "Bug reports") [📝](#blog-ThijsvanRijn "Blogposts") [⚠️](https://github.com/Yannick1691/social-media/commits?author=ThijsvanRijn "Tests") [🚇](#infra-ThijsvanRijn "Infrastructure (Hosting, Build-Tools, etc)") [🤔](#ideas-ThijsvanRijn "Ideas, Planning, & Feedback") |
+| :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
