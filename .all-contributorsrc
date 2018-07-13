@@ -1,0 +1,29 @@
+{
+  "projectName": "social-media",
+  "projectOwner": "Yannick1691",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "yannick1691",
+      "name": "Yannick",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/19853448?v=4",
+      "profile": "http://yannick-frisart.nl",
+      "contributions": [
+        "doc",
+        "code",
+        "design",
+        "bug",
+        "blog",
+        "test",
+        "infra",
+        "ideas"
+      ]
+    }
+  ]
+}

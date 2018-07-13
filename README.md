@@ -1,10 +1,47 @@
 # social-media
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 [![Maintainability](https://api.codeclimate.com/v1/badges/0940763fd54d720ecc83/maintainability)](https://codeclimate.com/github/yannick1691/social-media/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/0940763fd54d720ecc83/test_coverage)](https://codeclimate.com/github/yannick1691/social-media/test_coverage)
 [![Known Vulnerabilities](https://snyk.io/test/github/yannick1691/social-media/badge.svg?targetFile=package.json)](https://snyk.io/test/github/yannick1691/social-media?targetFile=package.json)
 [![Build Status](https://travis-ci.com/yannick1691/social-media.svg?branch=master)](https://travis-ci.com/yannick1691/social-media)
 
-A open source social media platform.
+A open source platform made by Yannick and Thijs.  
+This project is made for educational purposes and to test our skill.
+
+We will be keeping a blog on our thought process and steps of this process.
+
+## Target devices
+Our target devices are recent browsers, we will be using technologies that could be considered experimental.
+
+While we strive to support as much as possible, the experience might not be the same across devices.
+
+| ![Chrome](https://cdnjs.cloudflare.com/ajax/libs/browser-logos/42.4.2/chrome/chrome_48x48.png) | ![Firefox](https://cdnjs.cloudflare.com/ajax/libs/browser-logos/42.4.2/firefox/firefox_48x48.png) | ![Safari](https://cdnjs.cloudflare.com/ajax/libs/browser-logos/42.4.2/safari/safari_48x48.png) | ![Opera](https://cdnjs.cloudflare.com/ajax/libs/browser-logos/42.4.2/opera/opera_48x48.png) | ![Edge](https://cdnjs.cloudflare.com/ajax/libs/browser-logos/42.4.2/edge/edge_48x48.png) |
+| --- | --- | --- | --- | --- |
+| macOS latest | macOS latest | macOS latest | macOS latest |  |
+| Windows latest | Windows latest |  | Windows latest | Windows latest |
+| iOS latest | iOS latest | ios 10.3 and up | - |  |
+| Android latest | Android latest |  | - |  |
+
+## Getting started
+To get started clone the repository.
+
+Open the folder in your terminal and run the following
+``` bash
+# this will install all the dependencies.
+npm install
+```
+
+To start the development server run
+``` bash
+npm run dev
+```
+
+To create a production optimized build run
+``` bash
+npm run serve -- --server config
+```
+
+For more info on the cli checkout [CLI Commands](#cli-commands)
 
 ## CLI Commands
 ``` bash
@@ -22,4 +59,19 @@ npm run serve
 
 # run tests with jest and preact-render-spy 
 npm run test
+
+# run tests with jest and generate coverage
+npm run test-coverage
 ```
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+| [<img src="https://avatars2.githubusercontent.com/u/19853448?v=4" width="100px;"/><br /><sub><b>Yannick</b></sub>](http://yannick-frisart.nl)<br />[📖](https://github.com/Yannick1691/social-media/commits?author=yannick1691 "Documentation") [💻](https://github.com/Yannick1691/social-media/commits?author=yannick1691 "Code") [🎨](#design-yannick1691 "Design") [🐛](https://github.com/Yannick1691/social-media/issues?q=author%3Ayannick1691 "Bug reports") [📝](#blog-yannick1691 "Blogposts") [⚠️](https://github.com/Yannick1691/social-media/commits?author=yannick1691 "Tests") [🚇](#infra-yannick1691 "Infrastructure (Hosting, Build-Tools, etc)") [🤔](#ideas-yannick1691 "Ideas, Planning, & Feedback") |
+| :---: |
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
