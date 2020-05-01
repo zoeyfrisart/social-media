@@ -54,7 +54,7 @@
     "preact": "^8.2.9",
     "preact-compat": "^3.18.0",
     "preact-router": "^2.6.1",
-    "snyk": "^1.88.2"
+    "snyk": "^1.316.1"
   },
   "jest": {
     "verbose": true,
